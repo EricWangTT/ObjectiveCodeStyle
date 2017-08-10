@@ -30,7 +30,7 @@ source ~/.profile
 # 下载pre-commit
 Git_Hooks_Path=$Pack_Path"/.git/hooks/"
 Git_Hooks_Path_Precommit=$Format_Path"/pre-commit-clang-format"
-wget https://gist.githubusercontent.com/wangkuiyi/7379a242f0d4089eaa75/raw/fec96e166257c4be22558dffba4e04ae17582fbf/pre-commit-clang-format -P $Format_Path
+wget https://github.com/EricWangTT/ObjectiveCodeStyle/blob/master/pre-commit -P $Format_Path
 
 # 移动pre-commit
 mv $Git_Hooks_Path_Precommit $Git_Hooks_Path
