@@ -29,8 +29,8 @@ source ~/.profile
 
 # 下载pre-commit
 Git_Hooks_Path=$Pack_Path"/.git/hooks/"
-Git_Hooks_Path_Precommit=$Format_Path"/pre-commit"
-wget https://github.com/EricWangTT/ObjectiveCodeStyle/blob/master/pre-commit -P $Format_Path
+Git_Hooks_Path_Precommit='./pre-commit'
+# wget https://github.com/EricWangTT/ObjectiveCodeStyle/blob/master/pre-commit -P $Format_Path
 
 # 移动pre-commit
 mv $Git_Hooks_Path_Precommit $Git_Hooks_Path

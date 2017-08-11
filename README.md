@@ -13,8 +13,9 @@
 7. Change `.clang-format` if you want to change the style.
 ```
 
-上面步奏已经脚本实现直接使用format_setup.sh初始完成
-注意需要先安装wget
+#### 上面步奏已经脚本实现直接使用format_setup.sh初始完成
+#### 注意需要先安装wget
+#### 在当前目录下执行
 
 ```bash
 bash format_setup.sh path/to/your/ios/project
